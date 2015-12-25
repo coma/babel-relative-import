@@ -2,7 +2,7 @@
     "name"           : "babel-relative-import",
     "description"    : "Babel plugin to replace import paths to relative ones avoiding the ../../.. issue",
     "homepage"       : "https://github.com/coma/babel-relative-import",
-    "version"        : "1.0.0",
+    "version"        : "1.1.0",
     "license"        : "MIT",
     "author"         : "Eduardo García Sanz <eduardo@comakai.com>",
     "keywords"       : ["babel", "plugin", "import", "require", "relative"],
