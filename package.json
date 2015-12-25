@@ -1,0 +1,36 @@
+{
+    "name"           : "babel-relative-import",
+    "description"    : "Babel plugin to replace import paths to relative ones avoiding the ../../.. issue",
+    "homepage"       : "https://github.com/coma/babel-relative-import",
+    "version"        : "1.0.0",
+    "license"        : "MIT",
+    "author"         : "Eduardo García Sanz <eduardo@comakai.com>",
+    "keywords"       : ["babel", "plugin", "import", "require", "relative"],
+    "main"           : "index.js",
+    "devDependencies": {
+        "eslint"  : "1.10",
+        "tap-spec": "4.1",
+        "tape"    : "4.3"
+    },
+    "scripts"        : {
+        "lint": "eslint .",
+        "test": "npm run lint && tape test.js | tap-spec"
+    },
+    "eslintConfig"   : {
+        "env"         : {
+            "node": true
+        },
+        "rules"       : {
+            "new-cap"                    : 0,
+            "eqeqeq"                     : 2,
+            "curly"                      : 2,
+            "quotes"                     : [1, "single"],
+            "no-unreachable"             : 2,
+            "space-before-blocks"        : 2,
+            "space-before-function-paren": 2,
+            "no-multi-spaces"            : 0,
+            "key-spacing"                : 0,
+            "no-mixed-requires"          : 0
+        }
+    }
+}
